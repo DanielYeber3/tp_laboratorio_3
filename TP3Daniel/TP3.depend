@@ -244,7 +244,7 @@
 
 1603749802 c:\users\sabrino\desktop\angel programacion 2do cuatri 2do intento\tp3-20201026t120114z-001\tp3\controller.h
 
-1604431548 source:c:\users\sabrino\desktop\dani\tp3 daniel\tp3daniel\controller.c
+1604439294 source:c:\users\sabrino\desktop\dani\tp3 daniel\tp3daniel\controller.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -255,16 +255,16 @@
 
 1603698654 c:\users\sabrino\desktop\dani\tp3 daniel\tp3daniel\linkedlist.h
 
-1604432928 c:\users\sabrino\desktop\dani\tp3 daniel\tp3daniel\employee.h
+1604438357 c:\users\sabrino\desktop\dani\tp3 daniel\tp3daniel\employee.h
 
-1603698656 c:\users\sabrino\desktop\dani\tp3 daniel\tp3daniel\parser.h
+1604436757 c:\users\sabrino\desktop\dani\tp3 daniel\tp3daniel\parser.h
 
-1604432129 source:c:\users\sabrino\desktop\dani\tp3 daniel\tp3daniel\employee.c
+1604438229 source:c:\users\sabrino\desktop\dani\tp3 daniel\tp3daniel\employee.c
 	<stdlib.h>
 	"Employee.h"
 	<string.h>
 
-1604341902 source:c:\users\sabrino\desktop\dani\tp3 daniel\tp3daniel\main.c
+1604437447 source:c:\users\sabrino\desktop\dani\tp3 daniel\tp3daniel\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -284,5 +284,5 @@
 	<stdio.h>
 	<stdlib.h>
 
-1604343422 c:\users\sabrino\desktop\dani\tp3 daniel\tp3daniel\menu.h
+1604437428 c:\users\sabrino\desktop\dani\tp3 daniel\tp3daniel\menu.h
 

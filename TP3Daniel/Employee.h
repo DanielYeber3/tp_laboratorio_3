@@ -101,20 +101,20 @@ int employee_getSueldo(Employee* this,int* sueldo);
 
 /** \brief Es una funcion que compara el valor de los nombres.
  *
- * \param e1 Employee*  Puntero a Employee con el valor del primer empleado a evaluar.
- * \param e2 Employee*  Puntero a Employee con el valor del segundo empleado a evaluar.
+ * \param e1 void*  Puntero a void con el valor del primer empleado a evaluar.
+ * \param e2 void*  Puntero a void con el valor del segundo empleado a evaluar.
  * \return int  Retorna el valor de los empleados comparados.
  *
  */
-int employee_CompareByName(Employee* e1, Employee* e2);
+int employee_CompareByName(void* e1, void* e2);
 
 /** \brief Es una funcion que compara el valor de los ID's.
  *
- * \param e1 Employee*  Puntero a Employee con el valor del primer empleado a evaluar.
- * \param e2 Employee*  Puntero a Employee con el valor del segundo empleado a evaluar.
+ * \param e1 void*  Puntero a void con el valor del primer empleado a evaluar.
+ * \param e2 void*  Puntero a void con el valor del segundo empleado a evaluar.
  * \return int  Retorna el valor de los empleados comparados.
  *
  */
-int employee_CompareById(Employee* e1, Employee* e2);
+int employee_CompareById(void* e1, void* e2);
 
 #endif // employee_H_INCLUDED

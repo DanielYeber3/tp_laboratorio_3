@@ -125,11 +125,6 @@ int controller_editEmployee(LinkedList* pArrayListEmployee)
 }
 
 
-
-
-
-
-
 int controller_searchIndexById(LinkedList* pArrayListEmployee, int id)
 {
     int index;
@@ -158,14 +153,6 @@ int controller_searchIndexById(LinkedList* pArrayListEmployee, int id)
 
     return index;
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -246,7 +233,7 @@ int controller_addEmployee(LinkedList* pArrayListEmployee)
             scanf("%[^\n]", sueldo);
 
         }
-
+    }
         anEmployee = employee_newParametros(id, nombre,  horasTrabajadas, sueldo);
         ll_add(pArrayListEmployee, anEmployee);
 
@@ -457,16 +444,13 @@ int controller_saveAsBinary(char* path, LinkedList* pArrayListEmployee)
             auxEmployee = ll_get(pArrayListEmployee,i);
 
             auxWrite=fwrite(auxEmployee,sizeof(Employee),1,pFile);
-            if(auxWrite)
-            {
+
 
               auxReturn = 1;
 
-            }
 
 
         }
-
 
     }
 

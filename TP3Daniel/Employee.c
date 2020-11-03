@@ -160,7 +160,7 @@ int employee_getSueldo(Employee* this,int* sueldo)
     return auxReturn;
 }
 
-int employee_CompareByName(Employee* e1, Employee* e2)
+int employee_CompareByName(void* e1, void* e2)
 {
     Employee* auxUno;
     Employee* auxDos;
@@ -181,7 +181,7 @@ int employee_CompareByName(Employee* e1, Employee* e2)
     return strcmp(nombreUno, nombreDos);
 }
 
-int employee_CompareById(Employee* e1, Employee* e2)
+int employee_CompareById(void* e1, void* e2)
 {
     int auxReturn;
     int idUno;
